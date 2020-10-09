@@ -1,0 +1,406 @@
+body{
+background-color: #FBDAEA;
+}
+#heading{
+float: left;
+width: 380px;
+padding-top: 2px;
+line-height: 6px;
+text-decoration: none;
+padding-left: 5px;
+font-family:  'Rubik', sans-serif;
+font-size: 20px;
+}
+#nav-bar {
+width: 100%;
+height: 65px;
+margin: 0px;
+padding: 0px;
+
+}
+#nav-bar ul {
+list-style: none;
+}
+#nav-bar ul li {
+float: none;
+line-height: 65px
+}
+#nav-bar ul li a {
+float:left;
+width:100px;
+display:block;
+color: black;
+text-align:center;
+text-decoration:none;
+font-family:  'Rubik', sans-serif;
+
+}
+#nav-bar ul li a:hover {
+float:left;
+width:100px;
+display:block;
+text-align:center;
+color:#808080;
+text-decoration:none;
+font-family:  'Rubik', sans-serif;
+
+}
+#no {
+float: right;
+padding-top: 2px;
+line-height: 6px;
+text-decoration: none;
+padding-right: 30px;
+font-family: 'Rubik', sans-serif;
+font-size: 20px;
+}
+#mydiv{
+padding: 5px;
+border-top: 1px solid #808080;
+}
+section {
+padding-top: 50px;
+}
+p{
+padding-left: 120px;
+font-size: 63px;
+line-height: 2px;
+font-family: 'Rubik', sans-serif;
+}
+.circle{
+float: right;
+opacity: 50%;
+width: 250px;
+margin-right: 200px;
+margin-top: 50px;
+}
+b{
+color: blue;
+}
+.p{
+font-family: 'Rubik', sans-serif;
+font-size: 15px;
+}
+.p-2{
+font-family: 'Rubik', sans-serif;
+font-size: 15px;
+color:  #5B6066;
+}
+.img-icon{
+width: 10px;
+padding-right: 10px;
+}
+.icon{
+float: right;
+padding-right: 120px;
+margin-top: 15px;
+}
+.image{
+padding-top: 75px;
+}
+#pict-1{
+width: 350px;
+height: 250px;
+position: absolute;
+padding-left: 120px;
+}
+#pict-2{
+z-index: 1;
+width: 280px;
+height: 180px;
+position: absolute;
+left: 50px;
+padding-left: 370px;
+padding-top: 150px;
+}
+.img-icon-down{
+width: 50px;
+float: right;
+padding-right: 170px;
+
+}
+.icon-down {
+background-color: white;
+border-radius: 80%;
+}
+.about-me-div{
+padding-top: 110px;
+
+}
+.about-me{
+margin-right: 350px;
+font-family: 'Rubik', sans-serif;
+font-size: 15px;
+line-height: 20px;
+font-weight: bold;
+word-spacing: 1px;
+padding-left: 764px;
+}
+.about{
+text-align:  justify;
+font-family: 'Rubik', sans-serif;
+font-size: 12px;
+color: grey;
+line-height: 20px;
+padding-left: 764px;
+padding-top: 10px;
+}
+.dreams{
+text-align:  justify;
+font-family: 'Rubik', sans-serif;
+font-size: 12px;
+color: grey;
+line-height: 40px;
+padding-left: 764px;
+}
+h2{
+text-align: center;
+font-size: 50px;
+font-family: 'Rubik', sans-serif;
+}
+#list {
+width: 100%;
+margin: 0px;
+padding: 0px;
+
+}
+#list ul {
+list-style: none;
+text-align: justify;
+margin-left: 495px;
+font-family: 'Rubik', sans-serif;
+}
+#list ul li {
+float: none;
+font-size: 15px;
+}
+.span{
+color: grey;
+font-size: 15px;
+margin-left: 20px;
+}
+.span-2{
+font-weight: bold;
+font-size: 20px;
+}
+.span-3{
+margin-top: 20px;
+line-height: 40px;
+}
+.time-list {
+float: left;
+}
+.time-list ul {
+list-style: none;
+text-align: left;
+margin-left:230px;
+margin-top: 37px;
+font-family: 'Rubik', sans-serif;
+}
+.time-list ul li {
+float: none;
+font-size: 15px;
+color: #525252;
+}
+.li-time-1{
+line-height: 225px;
+}
+.li-time-2{
+line-height: 20px;
+}
+.li-time-3{
+line-height: 220px;
+}
+#infinity{
+padding-top: 60px;
+}
+.down-list{
+width: 15px;
+float: right;
+margin-right: 330px;
+}
+#down-list{
+margin-top: 70px;
+}
+#pict-3{
+width: 500px;
+height: 300px;
+display: block;
+margin-left: 300px;
+margin-right: auto;
+margin-top: 30px;
+}
+#download{
+background-color: white;
+float: right;
+height: 280px;
+width: 202px;
+margin-right: 330px;
+}
+.download{
+font-size: 15px;
+float: right;
+padding-right: 60px;
+padding-top: 60px;
+line-height: 15px;
+font-weight: bold;
+}
+.span-download{
+font-size: 10px;
+line-height: 8px;
+padding-top: 20px;
+}
+.button{
+background-color: blue;
+color: white;
+border-top: 0;
+border-left: 0;
+border-right: 0;
+border-bottom: 0;
+padding: 10px 20px;
+text-decoration: none;
+font-family: sans-serif;
+font-size: 11pt;
+border-radius: 40%;
+float: center;
+}
+.skills-icon{
+display: grid;
+grid-gap: 220px;
+grid-template-columns: 1fr 1fr 1fr;
+float: left;
+margin-left: 305px;
+margin-bottom: 10px;
+}
+#icon-skills{
+width: 50px;
+float: left;
+}
+.skills{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+width: 800px;
+text-align: center;
+padding-left: 230px;
+}
+.skills-keterangan{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+width: 800px;
+padding-left: 190px;
+}
+.skills-list{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+width: 800px;
+font-size: 15px;
+margin-top: 40px;
+margin-left: 270px;
+margin-bottom: 50px;
+}
+#skills{
+font-family: 'Rubik', sans-serif;
+}
+#skills-heading{
+float: left;
+padding-left: 300px;
+}
+.my-skills{
+font-size: 15px;
+line-height: 20px;
+width: 150px;
+}
+.my-experience{
+font-size: 50px;
+margin-bottom: 20px;
+}
+.list-1{
+font-size: 20px;
+}
+.experience{
+display: grid;
+grid-template-columns: 300px 900px;
+grid-gap: 10px;
+}
+.experience ul{
+list-style: none;
+}
+.experience ul li{
+margin-bottom: 80px;
+}
+.check-experience{
+width: 60px;
+margin-bottom: 60px;
+margin-left: 250px;
+}
+.experience-ul{
+list-style: none;
+margin-left: 170px;
+}
+.pict-4{
+width: 600px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+position: relative;
+top: 0px;
+z-index: 2;
+}
+.free{
+width:50px;
+}
+#h2-contact{
+text-align: center;
+}
+.contact-me{
+font-size: 30px;
+font-family: 'Rubik', sans-serif;
+}
+.cont-1{
+font-size: 15px;
+}
+.contact{
+padding-left: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.contact ul{
+list-style: none;
+}
+.contact ul li{
+float: none;
+margin-bottom: 50px;
+}
+.cont-icon{
+width: 15px;
+}
+.cont{
+display: grid;
+grid-template-columns: 120px 120px 120px;
+}
+.ket-cont{
+font-size: 20px;
+display: grid;
+grid-template-columns: 120px 120px 120px;
+grid-gap:
+}
+#my-contact{
+background: url('assets/images/pict-5.jpg');
+background-size: 100%;
+background-position: 0 250px;
+background-repeat: no-repeat;
+margin-left: 50px;
+margin-right: 50px;
+}
+.p-contact{
+width: 150px;
+font-size: 15px;
+color: grey;
+line-height: 15px;
+margin-top: 80px;
+margin-left: 200px;
+}
+.div-contact{
+display: grid;
+grid-template-columns: 400px 900px;
+}
