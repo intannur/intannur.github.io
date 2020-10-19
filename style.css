@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Rubik', sans-serif;
+    background-color: #FBDAEA;
 }
 ul,nav{
     list-style: none;
@@ -47,12 +48,12 @@ header nav li:first-child{
 header nav li:last-child{
     margin-right: 0;
 }
-@media(max-width: 1000px){
+@media (max-width: 1000px){
     header{
         padding: 20px 50px;
     }
 }
-@media(max-width: 700px){
+@media (max-width: 700px){
     header{
         flex-direction: column;
     }
@@ -352,3 +353,246 @@ ul.about-content{
 }
 }
 
+/*download area*/
+#download{
+    display: grid;
+    grid-template-columns: 700px 200px;
+}
+#pict-3{
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin-left: 200px;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.ket-download{
+    font-size: 15px;
+    float: right;
+    padding-right: 60px;
+    padding-top: 60px;
+    line-height: 15px;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+    height: 250px;
+}
+.span-download{
+    font-size: 10px;
+    line-height: 8px;
+    padding-top: 20px;
+}
+.button{
+    background-color: blue;
+    color: white;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 11pt;
+    border-radius: 40%;
+    float: center;
+}
+@media (max-width: 1000px){
+    section{
+        padding: 100px 50px;
+    }
+}
+@media (max-width: 800px){
+    section{
+        padding: 125px 30px;
+    }
+}
+@media (max-width: 600px){
+    #download{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #pict-3{
+        width: 400px;
+        height: 200px;
+        display: block;
+        margin-left: 20px;
+    }
+    .ket-download{
+        padding-right: 30px;
+        padding-top: 30px;
+        height: 120px;
+        margin-left: 20px;
+    }
+}
+
+/*skills area*/
+.img-skills{
+    width: 50px;
+    margin-bottom: 10px;
+}
+.skills-area h3{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.skills-content{
+    font-size: 20px;
+}
+ul.skills-content{
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skills-content li{
+    padding: 0 30px;
+    flex-basis: 33%;
+    text-align: left;
+}
+.skills-list{
+    margin-top: 20px;
+}
+.skills-list li{
+    list-style-type: upper-greek;
+}
+@media (max-width: 1000px){
+    .skills-content li{
+        flex-basis: 100%;
+        margin-bottom: 65px;
+    }
+    .skills-content li:last-child{
+        margin-bottom: 0;
+    }
+    .skills-content li p{
+        padding: 0;
+    }
+}
+
+/*experience area*/
+.i-like{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 300px 900px;
+    grid-gap: 10px;
+}
+.i-like ul{
+    list-style: none;
+    margin-left: 170px;
+}
+.i-like ul li{
+    margin-bottom: 120px;
+}
+.check-experience{
+    width: 60px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+.list-1{
+    font-size: 20px;
+}
+@media (max-width: 1000px){
+    section{
+        padding: 100px 50px;
+    }
+}
+@media (max-width: 800px){
+    section{
+        padding: 125px 30px;
+    }
+}
+@media (max-width: 600px){
+    .i-like{
+        display: grid;
+        grid-template-columns: 100px 400px;
+    }
+    .i-like ul{
+        margin-left: 0px;
+    }
+    .check-experience{
+        width: 40px;
+    }
+    .my-experience{
+        font-size: 30px;
+    }
+}
+
+/*contact area*/
+.contact{
+    background: url('assets/images/pict-5.jpg');
+    background-size: 100%;
+    background-position: 0 250px;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.pict-4{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: block;
+}
+.contact h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contact ul{
+    margin-left: 270px;
+}
+.contact ul li{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.contact ul li p{
+    font-size: 15px;
+    color: #808080;
+    margin-bottom: 70px;
+}
+.cont-icon{
+    width: 25px;
+}
+.icon-contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 400px;
+    margin-bottom: 10px;
+}
+.ket-contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 15px;
+    width: 400px;
+}
+@media (max-width: 1000px){
+    section{
+        padding: 100px 50px;
+    }
+}
+@media (max-width: 800px){
+    section{
+        padding: 125px 30px;
+    }
+}
+@media (max-width: 600px){
+    .pict-4{
+        width: 300px;
+    }
+    .contact{
+    background-position: 0 250px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-size: 500px 500px;
+    }
+    .contact ul{
+        margin-left: 0px;
+    }
+    .contact ul li{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
