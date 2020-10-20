@@ -48,6 +48,10 @@ header nav li:first-child{
 header nav li:last-child{
     margin-right: 0;
 }
+.mydiv{
+    border-bottom: solid;
+    border-color: black;
+}
 @media (max-width: 1000px){
     header{
         padding: 20px 50px;
@@ -66,11 +70,11 @@ header nav li:last-child{
     .no{
         display: none;
     }
+    .mydiv{
+        width: 100%;
+    }
 }
-.mydiv{
-    border-bottom: solid;
-    border-color: black;
-}
+
 
 /*hi area*/
 section{
@@ -114,6 +118,9 @@ section .p-2{
     section{
         padding: 125px 30px;
     }
+    .img-icon{
+        display: none;
+    }
 }
 @media (max-width: 800px){
     .hi-area{
@@ -129,8 +136,7 @@ section .p-2{
     }
     .area{
     display: grid;
-    grid-template-columns: 300px 100px;
-    grid-gap: 20px;
+    grid-template-columns: 1fr;
     }
     .img-icon{
         display: none;
@@ -600,5 +606,11 @@ ul.skills-content{
         font-size: 20px;
         margin-bottom: 20px;
         margin-left: 0px;
+    }
+    .icon-contact{
+        width: 300px;
+    }
+    .ket-contact{
+        width: 300px;
     }
 }
