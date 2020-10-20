@@ -121,6 +121,9 @@ section .p-2{
     .img-icon{
         display: none;
     }
+    .icon{
+        display: none;
+    }
 }
 @media (max-width: 800px){
     .hi-area{
@@ -139,6 +142,9 @@ section .p-2{
     grid-template-columns: 1fr;
     }
     .img-icon{
+        display: none;
+    }
+    .icon{
         display: none;
     }
 }
@@ -592,12 +598,12 @@ ul.skills-content{
         width: 300px;
     }
     .contact{
-    background-position: 0 250px;
-    background-repeat: no-repeat;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    background-size: 500px 500px;
+        background-position: 0 250px;
+        background-repeat: no-repeat;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-size: 100%;
     }
     .contact ul{
         margin-left: 0px;
