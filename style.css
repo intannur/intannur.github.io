@@ -124,6 +124,8 @@ section .p-2{
     }
     section .p{
         margin-top: 40px;
+        width: 300px;
+        font-size: 12px;
     }
     .area{
     display: grid;
