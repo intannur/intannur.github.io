@@ -452,22 +452,23 @@ ul.skills-content{
     flex-basis: 33%;
     text-align: left;
 }
-.skills-list{
-    margin-top: 20px;
-}
-.skills-list li{
-    list-style-type: upper-greek;
-}
+
 @media (max-width: 1000px){
     .skills-content li{
         flex-basis: 100%;
         margin-bottom: 65px;
+        text-align: center;
+        font-size: 35px;
     }
     .skills-content li:last-child{
         margin-bottom: 0;
     }
     .skills-content li p{
         padding: 0;
+        text-align: center;
+    }
+    .skills-content li h4{
+        margin-bottom: 20px;
     }
 }
 
@@ -506,13 +507,15 @@ ul.skills-content{
 @media (max-width: 600px){
     .i-like{
         display: grid;
-        grid-template-columns: 100px 400px;
+        grid-template-columns: 50px 100px;
     }
     .i-like ul{
         margin-left: 0px;
+        float: left;
     }
     .check-experience{
         width: 40px;
+        margin-left: 0px;
     }
     .my-experience{
         font-size: 30px;
@@ -594,5 +597,6 @@ ul.skills-content{
     .contact ul li{
         font-size: 20px;
         margin-bottom: 20px;
+        margin-left: 0px;
     }
 }
