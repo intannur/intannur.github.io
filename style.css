@@ -131,7 +131,7 @@ section .p-2{
     grid-gap: 20px;
     }
     .img-icon{
-        margin-top: 60px;
+        display: none;
     }
 }
 
