@@ -92,16 +92,13 @@ section .p-2{
     font-size: 15px;
     color:  #5B6066;
 }
-.area{
-    display: grid;
-    grid-template-columns: 1050px 100px;
-}
 .icon{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-basis: 20%
 }
 .img-icon{
-    margin-top: 80px;
     width: 10px;
 }
 @media (max-width: 1000px){
@@ -132,10 +129,6 @@ section .p-2{
         width: 300px;
         font-size: 12px;
     }
-    .area{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
     .img-icon{
         display: none;
     }
@@ -160,7 +153,7 @@ ul.about-content{
 }
 .about-right{
     font-size: 10pt;
-    align-content: right;
+    margin-left: 30px;
     width: 150px;
     margin-top: 80px;
 }
@@ -171,8 +164,9 @@ ul.about-content{
     background-size: 80px;
 }
 .about-left{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 #pict-1{
     width: 350px;
@@ -198,8 +192,7 @@ ul.about-content{
 }
 @media (max-width: 600px){
     .about-left{
-        display: grid;
-        grid-template-columns: 1fr;
+        flex-direction: column;
     }
     #pict-1{
         width: 400px;
@@ -500,13 +493,13 @@ ul.skills-content{
 /*experience area*/
 .i-like{
     margin-top: 100px;
-    display: grid;
-    grid-template-columns: 300px 900px;
-    grid-gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .i-like ul{
     list-style: none;
-    margin-left: 170px;
+    
 }
 .i-like ul li{
     margin-bottom: 120px;
@@ -514,7 +507,7 @@ ul.skills-content{
 .check-experience{
     width: 60px;
     margin-bottom: 30px;
-    margin-left: 50px;
+    
 }
 .list-1{
     font-size: 20px;
@@ -530,13 +523,8 @@ ul.skills-content{
     }
 }
 @media (max-width: 600px){
-    .i-like{
-        display: grid;
-        grid-template-columns: 50px 100px;
-    }
     .i-like ul{
         margin-left: 0px;
-        float: left;
     }
     .check-experience{
         width: 40px;
@@ -583,14 +571,16 @@ ul.skills-content{
     width: 25px;
 }
 .icon-contact{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     width: 400px;
     margin-bottom: 10px;
 }
 .ket-contact{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     font-size: 15px;
     width: 400px;
 }
