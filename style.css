@@ -22,10 +22,6 @@ header{
     left: 0;
     z-index: 10;
     width: 100%;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,10 +29,6 @@ header{
     padding: 35px 100px 0;
 }
 header nav{
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
     display: flex;
 }
 header nav li{
@@ -78,10 +70,6 @@ header nav li:last-child{
 
 /*hi area*/
 section{
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -121,7 +109,7 @@ section .p-2{
         padding: 100px 50px;
     }
 }
-@media (max-width: 600px){
+@media (max-width: 800px){
     section{
         padding: 125px 30px;
     }
@@ -132,12 +120,12 @@ section .p-2{
         display: none;
     }
 }
-@media (max-width: 800px){
+@media (max-width: 600px){
     .hi-area{
         min-height: 200px;
     }
     .hi-area h1{
-        font-size: 25pt;
+        font-size: 20pt;
     }
     section .p{
         margin-top: 40px;
@@ -145,8 +133,8 @@ section .p-2{
         font-size: 12px;
     }
     .area{
-    display: grid;
-    grid-template-columns: 1fr;
+        display: grid;
+        grid-template-columns: 1fr;
     }
     .img-icon{
         display: none;
@@ -162,10 +150,6 @@ section .p-2{
 /*about area*/
 ul.about-content{
     width: 100%;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
     display: flex;
     flex-wrap: wrap;
     justify-content: justify;
