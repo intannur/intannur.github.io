@@ -144,6 +144,10 @@ section .p-2{
     }
     .h1-area{
         background-image: url('assets/images/loading.png');
+        background-repeat: no-repeat;
+        background-size: 200px;
+        background-position: 900px 45px;
+        background-opacity: 50%;
     }
 }
 
@@ -159,6 +163,12 @@ ul.about-content{
     align-content: right;
     width: 150px;
     margin-top: 80px;
+}
+.about-area{
+    background-image: url('assets/images/down-arrow.png');
+    background-position: 1100px 60px;
+    background-repeat: no-repeat;
+    background-size: 80px;
 }
 .about-left{
     display: grid;
@@ -458,11 +468,6 @@ ul.about-content{
     font-size: 20px;
 }
 ul.skills-content{
-    width: 100%;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
