@@ -354,8 +354,8 @@ ul.about-content{
         margin-right: 5px;
     }
     .time-list{
-    flex: 1;
-    margin-left: 0px;
+        flex: 1;
+        margin-left: 0px;
     }
     .list-riwayat{
         flex: 2;
@@ -432,32 +432,32 @@ ul.about-content{
     color: grey;
 }
 .btn {
-  box-sizing: border-box;
-  background-color: transparent;
-  border: 2px solid #e74c3c;
-  border-radius: 1.5em;
-  color: #e74c3c;
-  cursor: pointer;
-  display: flex;
-  font-size: 15px;
-  line-height: 1;
-  margin: 20px;
-  padding: 10px 20px;
-  text-decoration: none;
-  text-align: center;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 1.5em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: flex;
+    font-size: 15px;
+    line-height: 1;
+    margin: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
 }
 .btn:hover, .btn:focus {
-  color: #000000;
-  outline: 0;
+    color: #000000;
+    outline: 0;
 }
 .third {
-  border-color: #3498db;
-  color: #fff;
-  box-shadow: 0 0 30px 40px #3498db inset, 0 0 0 0 #3498db;
-  transition: all 150ms ease-in-out;
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 30px 40px #3498db inset, 0 0 0 0 #3498db;
+    transition: all 150ms ease-in-out;
 }
 .third:hover {
-  box-shadow: 0 0 2px 0 #3498db inset, 0 0 2px 1px #3498db;
+    box-shadow: 0 0 2px 0 #3498db inset, 0 0 2px 1px #3498db;
 }
 .download{
     margin-bottom: 20px;
@@ -586,12 +586,11 @@ ul.skills-content{
         font-size: 20px;
     }
     .list-1{
-    font-size: 15px;
-}
-.i-like ul li{
-    margin-bottom: 50px;
-}
-
+        font-size: 15px;
+    }
+    .i-like ul li{
+        margin-bottom: 50px;
+    }
 }
 
 /*contact area*/
@@ -701,8 +700,8 @@ ul.skills-content{
     }
     .contact{
         margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 30px;
+        margin-right: 20px;
+        margin-bottom: 30px;
     }
     .part1{
         flex: 1.5;
