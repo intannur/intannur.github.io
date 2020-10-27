@@ -26,7 +26,9 @@ header{
     justify-content: space-between;
     align-items: center;
     color: #000;
-    padding: 35px 100px 0;
+    padding: 35px 100px 30px;
+    border-bottom: 2px solid;
+    border-bottom-color: #A1A5A1;
 }
 header nav{
     display: flex;
@@ -111,7 +113,7 @@ section .p-2{
 }
 @media (max-width: 800px){
     section{
-        padding: 125px 30px;
+        padding: 15px 30px;
         margin-top: 10px;
     }
 }
@@ -123,6 +125,9 @@ section .p-2{
         margin-top: 40px;
         width: 300px;
         font-size: 12px;
+    }
+    section .p-2{
+        font-size: 10px;
     }
     .img-icon{
         display: none;
@@ -225,7 +230,7 @@ ul.about-content{
     flex: 1;
 }
 .down-icon ul li{
-    line-height: 50px;
+    line-height: 70px;
 }
 #list {
     width: 100%;
@@ -240,6 +245,9 @@ ul.about-content{
 #list ul li {
     float: none;
     font-size: 15px;
+    border-bottom: 2px solid;
+    border-color: #A1A5A1;
+    padding-bottom: 10px;
 }
 .span{
     color: grey;
@@ -271,7 +279,7 @@ ul.about-content{
     line-height: 20px;
 }
 .li-time-3{
-    line-height: 220px;
+    line-height: 240px;
 }
 #infinity{
     padding-top: 60px;
@@ -294,6 +302,9 @@ ul.about-content{
     background-size: 270px;
     background-position: 60px 100px;
 }
+#span-gom{
+        margin-right: 20px;
+    }
 @media (max-width: 1000px){
     section{
         padding: 100px 50px;
@@ -308,6 +319,7 @@ ul.about-content{
     .div-experience{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }
     #list {
         width: 100%;
@@ -326,7 +338,7 @@ ul.about-content{
     .span{
         color: grey;
         font-size: 15px;
-        margin-left: 10px;
+        margin-left: 5px;
     }
     .span-2{
         font-weight: bold;
@@ -336,9 +348,12 @@ ul.about-content{
         margin-top: 10px;
         line-height: 10px;
     }
+    #span-gom{
+        margin-right: 5px;
+    }
     .time-list{
     flex: 1;
-    margin-left: 10px;
+    margin-left: 0px;
     }
     .list-riwayat{
         flex: 2;
@@ -356,34 +371,28 @@ ul.about-content{
         color: #525252;
     }
     .li-time-1{
-        margin-top: 65px;
+        margin-top: 75px;
         line-height: 15px;
     }
     .li-time-2{
-        margin-top: 40px;
+        margin-top: 46px;
         line-height: 15px;
     }
     .li-time-3{
-        margin-top: 60px;
+        margin-top: 63px;
         line-height: 20px;
     }
     #infinity{
         padding-top: 30px;
     }
-    .down-list{
+    .down-icon{
         display: none;
-    }
-    #down-list{
-        margin-top: 70px;
     }
     .experience{
         background-image: url('assets/images/rec.png');
         background-repeat: no-repeat;
-        background-size: 70px;
-        background-position: 10px 200px;
-    }
-    .down-list{
-        margin-left: 240px;
+        background-size: 80px;
+        background-position: 10px 180px;
     }
     .experience h3{
         font-size: 35px;
@@ -601,13 +610,14 @@ ul.skills-content{
 }
 .contact ul li{
     font-size: 30px;
-    margin-bottom: 20px;
+    padding: 30px 0px 30px;
+    border-bottom: 2px solid;
+    border-color: #A1A5A1;
 }
 .contact ul li p{
     font-size: 10px;
     color: #808080;
-    margin-bottom: 70px;
-}
+    }
 .cont-icon{
     width: 25px;
     height: 25px;
@@ -640,6 +650,7 @@ ul.skills-content{
     .pict-4{
         width: 300px;
         margin-top: -200px;
+        position: center;
     }
     .contact ul{
         margin-left: 0px;
