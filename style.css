@@ -334,6 +334,7 @@ ul.about-content{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-top: -50px;
     }
     #list {
         width: 100%;
@@ -402,11 +403,11 @@ ul.about-content{
     .down-icon{
         display: none;
     }
-    .experience{
-        background-image: url('assets/images/rec.png');
-        background-repeat: no-repeat;
-        background-size: 80px;
-        background-position: 10px 180px;
+    .img-time{
+        margin-top: -10px;
+        width: 70px;
+        height: 70px;
+        opacity: 0.4;
     }
     .experience h3{
         font-size: 35px;
