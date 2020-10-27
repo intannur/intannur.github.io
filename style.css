@@ -173,6 +173,7 @@ ul.about-content{
     height: 250px;
 }
 #pict-2{
+    margin-left: -50px;
     margin-top: 80px;
     width: 290px;
     height: 190px;
