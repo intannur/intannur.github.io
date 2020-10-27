@@ -203,6 +203,7 @@ ul.about-content{
         width: 300px;
         height: 180px;
         margin-top: 10px;
+        margin-left: 0px;
     }
     .about-right{
         font-size: 20px;
