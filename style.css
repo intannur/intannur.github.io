@@ -211,12 +211,12 @@ ul.about-content{
         flex-direction: column;
     }
     #pict-1{
-        width: 380px;
-        height: 250px;
+        width: 280px;
+        height: 180px;
     }
     #pict-2{
-        width: 380px;
-        height: 250px;
+        width: 280px;
+        height: 180px;
         margin-top: 10px;
         margin-left: 0px;
     }
@@ -224,6 +224,7 @@ ul.about-content{
         font-size: 15px;
         width: 100%;
         margin-left: 5px;
+        margin-top: 30px;
     }
 }
 
@@ -725,13 +726,18 @@ ul.skills-content{
         font-size: 20px;
         margin-bottom: 10px;
         margin-left: 0px;
+        text-align: center;
     }
     .icon-contact{
         width: 170px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .ket-contact{
         width: 200px;
         flex-basis: 10%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .contact h3{
         font-size: 35px;
@@ -744,7 +750,11 @@ ul.skills-content{
         margin-right: 20px;
         margin-bottom: 30px;
     }
-    .part1{
-        flex: 0.1;
+    .part1, .part2{
+        display: none;
+    }
+    .in-box{
+        display: flex;
+        flex-direction: column;
     }
 }
