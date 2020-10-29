@@ -532,11 +532,11 @@ ul.about-content{
 ul.skills-content{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 .skills-content li{
     padding: 0 60px;
-    flex-basis: 35%;
+    flex-basis: 33%;
     text-align: left;
 }
 @media(max-width: 800px){
