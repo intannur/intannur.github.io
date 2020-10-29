@@ -74,6 +74,9 @@ section{
     padding: 110px 100px;
     font-size: 30pt;
 }
+.hi-area{
+    padding: 100px 100px 10px 100px;
+}
 .area-1{
     display: flex;
     flex-direction: row;
@@ -83,6 +86,7 @@ section{
     flex-direction: column;
     flex: 3;
     align-items: left;
+    font-size: 30pt;
 }
 .circle-img{
     flex: 1;
@@ -93,10 +97,10 @@ section{
 }
 section .p{
     margin-top: 80px;
-    font-size: 15px;
+    font-size: 12pt;
 }
 section .p-2{
-    font-size: 15px;
+    font-size: 12pt;
     color:  #5B6066;
 }
 .area{
@@ -118,14 +122,14 @@ section .p-2{
     height: 20px;
     margin-left: 35px;
 }
-@media (max-width: 1000px){    section{
+@media (max-width: 1000px){    
+    section{
         padding: 100px 50px;
     }
 }
 @media (max-width: 800px){
-    section{
-        padding: 15px 30px;
-        margin-top: 10px;
+    .hi-area{
+    padding: 100px 30px 10px 30px;
     }
 }
 @media (max-width: 600px){
@@ -163,10 +167,10 @@ ul.about-content{
     justify-content: justify;
 }
 .about-right{
-    font-size: 10pt;
+    font-size: 12pt;
     margin-left: 30px;
-    width: 150px;
-    margin-top: 80px;
+    width: 210px;
+    margin-top: 75px;
 }
 .about-area{
     background-image: url('assets/images/down-arrow.png');
@@ -198,8 +202,8 @@ ul.about-content{
     }
 }
 @media (max-width: 800px){
-    section{
-        padding: 125px 30px;
+    .about-area{
+        padding: 20px 30px;
     }
 }
 @media (max-width: 600px){
@@ -207,23 +211,26 @@ ul.about-content{
         flex-direction: column;
     }
     #pict-1{
-        width: 300px;
-        height: 180px;
+        width: 380px;
+        height: 250px;
     }
     #pict-2{
-        width: 300px;
-        height: 180px;
+        width: 380px;
+        height: 250px;
         margin-top: 10px;
         margin-left: 0px;
     }
     .about-right{
-        font-size: 20px;
+        font-size: 15px;
         width: 100%;
         margin-left: 5px;
     }
 }
 
 /*experience area*/
+.experience{
+    padding: 10px 100px 10px 100px;
+}
 .experience h3{
     text-align: center;
     margin-bottom: 40px;
@@ -325,8 +332,8 @@ ul.about-content{
     }
 }
 @media (max-width: 800px){
-    section{
-        padding: 125px 30px;
+    .experience{
+    padding: 10px 30px 10px 30px;
     }
 }
 @media (max-width: 600px){
@@ -527,9 +534,14 @@ ul.skills-content{
     justify-content: center;
 }
 .skills-content li{
-    padding: 0 30px;
-    flex-basis: 33%;
+    padding: 0 60px;
+    flex-basis: 35%;
     text-align: left;
+}
+@media(max-width: 800px){
+    .skills-area{
+        padding: 30px 30px 10px 30px;
+    }
 }
 
 @media (max-width: 1000px){
@@ -560,14 +572,16 @@ ul.skills-content{
     margin-top: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
 }
 .i-like ul{
     list-style: none;
     
 }
 .i-like ul li{
-    margin-bottom: 120px;
+    border-bottom: 1px solid;
+    border-color: #eeeeee;
+    padding: 40px 0px 40px;
 }
 .check-experience{
     width: 60px;
@@ -575,6 +589,10 @@ ul.skills-content{
 }
 .list-1{
     font-size: 20px;
+    color: #5B6066;
+}
+.experience-ul{
+    margin-left: 200px;
 }
 @media (max-width: 1000px){
     section{
@@ -602,13 +620,18 @@ ul.skills-content{
         font-size: 15px;
     }
     .i-like ul li{
-        margin-bottom: 50px;
+        margin-bottom: 0px;
+    }
+    .i-like{
+        margin-top: 30px;
+        justify-content: space-around;
     }
 }
 
 /*contact area*/
 .contact{
     background-color: white;
+    margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
@@ -618,7 +641,8 @@ ul.skills-content{
     flex-direction: row;
 }
 .part1{
-    flex: 0.75;
+    flex: 0.5;
+    margin-left: 60px;
 }
 .words{
     flex: 0.5;
@@ -627,30 +651,34 @@ ul.skills-content{
     flex: 1;
 }
 .words p{
-    font-size: 15px;
-    width: 170px;
+    font-size: 13px;
+    width: 160px;
     color: #808080;
+    margin-top: 40px;
 }
 .pict-4{
     width: 600px;
     margin-top: -300px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     display: block;
 }
-.contact-list{
-    margin-left: 30px;
+.list-contact{
+    margin-left: 20px;
 }
 .contact h3{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .contact ul li{
-    font-size: 30px;
+    font-size: 32px;
     padding: 30px 0px 30px;
     border-bottom: 1px solid;
     border-color: #eeeeee;
+}
+.contact ul li h4{
+    letter-spacing: 1px;
 }
 .contact ul li p{
     font-size: 10px;
@@ -671,7 +699,7 @@ ul.skills-content{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 15px;
+    font-size: 10pt;
     width: 220px;
 }
 @media (max-width: 1000px){
@@ -717,6 +745,6 @@ ul.skills-content{
         margin-bottom: 30px;
     }
     .part1{
-        flex: 1.5;
+        flex: 0.1;
     }
 }
