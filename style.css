@@ -57,6 +57,7 @@ header nav li:last-child{
     }
     header nav li{
         margin: 0 7px;
+        font-size: 15px;
     }
     .no{
         display: none;
@@ -215,12 +216,12 @@ ul.about-content{
         margin-top: 30px;
     }
     #pict-1{
-        width: 325px;
-        height: 200px;
+        width: 300px;
+        height: 175px;
     }
     #pict-2{
-        width: 325px;
-        height: 200px;
+        width: 300px;
+        height: 175px;
         margin-top: 10px;
         margin-left: 0px;
     }
@@ -330,7 +331,7 @@ ul.about-content{
 }
 @media (max-width: 800px){
     .experience{
-    padding: 10px 30px 10px 30px;
+    padding: 10px 20px 10px 20px;
     }
 }
 @media (max-width: 600px){
@@ -392,7 +393,7 @@ ul.about-content{
         font-size: 15px;
     }
     .list-riwayat{
-        flex: 2;
+        flex: 1.5;
     }
     .span{
         color: grey;
@@ -489,8 +490,8 @@ ul.about-content{
     }
 }
 @media (max-width: 800px){
-    section{
-        padding: 125px 30px;
+    #download{
+        padding: 10px 10px 10 30px;
     }
 }
 @media (max-width: 600px){
@@ -502,13 +503,13 @@ ul.about-content{
         width: 300px;
         height: 150px;
         display: block;
-        margin-left: 20px;
+        margin-left: 5px;
     }
     .ket-download{
         padding-right: 30px;
         padding-top: 30px;
         height: 200px;
-        margin-left: 20px;
+        margin-left: 5px;
         width: 300px;
     }
 }
@@ -715,9 +716,8 @@ ul.skills-content{
         margin-bottom: 30px;
     }
     .pict-4{
-        width: 300px;
+        width: 200px;
         margin-top: -200px;
-        position: center;
     }
     .contact h3{
         font-size: 35px;
