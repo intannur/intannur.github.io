@@ -694,10 +694,12 @@ ul.skills-content{
 .sns{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 .contact-ket{
     font-size: 15px;
     font-weight: bold;
+    color: black;
 }
 @media (max-width: 1000px){
     section{
@@ -744,12 +746,12 @@ ul.skills-content{
     .cont-icon{
         width: 20px;
         height: 20px;
-        margin-left: 5px;
+        margin-left: 1px;
     }
     #twt{
         width: 20px;
         height: 20px;
-        margin-left: 5px;
+        margin-left: 1px;
     }
     .contact-ket{
         font-size: 12px;
