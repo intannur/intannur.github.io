@@ -681,23 +681,23 @@ ul.skills-content{
     font-size: 10px;
     color: #808080;
 }
-.icon-contact{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 200px;
-    margin-bottom: 10px;
-}
 .cont-icon{
     width: 25px;
     height: 25px;
+    margin-left: 24px;
 }
-.ket-contact{
+#twt{
+    width: 25px;
+    height: 25px;
+    margin-left: 14px;
+}
+.sns{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    font-size: 10pt;
-    width: 220px;
+}
+.contact-ket{
+    font-size: 15px;
+    font-weight: bold;
 }
 @media (max-width: 1000px){
     section{
@@ -741,15 +741,17 @@ ul.skills-content{
         margin-left: 0px;
         text-align: center;
     }
-    .icon-contact{
-        width: 170px;
-        margin-left: auto;
-        margin-right: auto;
+    .cont-icon{
+        width: 20px;
+        height: 20px;
+        margin-left: 1px;
     }
-    .ket-contact{
-        width: 200px;
-        flex-basis: 10%;
-        margin-left: auto;
-        margin-right: auto;
+    #twt{
+        width: 20px;
+        height: 20px;
+        margin-left: 1px;
+    }
+    .contact-ket{
+        font-size: 12px;
     }
 }
