@@ -331,7 +331,7 @@ ul.about-content{
 }
 @media (max-width: 800px){
     .experience{
-    padding: 10px 20px 10px 20px;
+    padding: 10px 20px 10px 30px;
     }
 }
 @media (max-width: 600px){
@@ -684,12 +684,15 @@ ul.skills-content{
 .cont-icon{
     width: 25px;
     height: 25px;
-    margin-left: 24px;
+}
+.contact-icon{
+    display: block;
+}
+#fb, #ig{
+    margin-left: 10px;
 }
 #twt{
-    width: 25px;
-    height: 25px;
-    margin-left: 14px;
+    margin-left: 3px;
 }
 .sns{
     display: flex;
@@ -746,12 +749,9 @@ ul.skills-content{
     .cont-icon{
         width: 20px;
         height: 20px;
-        margin-left: 1px;
     }
-    #twt{
-        width: 20px;
-        height: 20px;
-        margin-left: 1px;
+    #fb, #ig{
+        margin-left: 0px;
     }
     .contact-ket{
         font-size: 12px;
