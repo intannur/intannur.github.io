@@ -17,6 +17,10 @@ a{
     cursor: pointer;
     color: inherit;
 }
+a:hover{
+    color: white;
+    text-shadow: 2px 2px 3px grey;
+}
 header{
     position: absolute;
     top: 0;
@@ -82,6 +86,8 @@ section{
     flex-direction: row;
 }
 .h1-area{
+    transition: width 2s;
+    transition-timing-function: ease-in;
     display: flex;
     flex-direction: column;
     flex: 3;
@@ -159,12 +165,6 @@ section .p-2{
 }
 
 /*about area*/
-.about-area{
-    background-image: url('assets/images/down-arrow.png');
-    background-position: 1100px 60px;
-    background-repeat: no-repeat;
-    background-size: 80px;
-}
 ul.about-content{
     width: 100%;
     display: flex;
@@ -181,6 +181,13 @@ ul.about-content{
     margin-left: 30px;
     width: 210px;
     margin-top: 75px;
+}
+.about-down{
+    margin-left: 220px;
+    margin-top: -50px;
+}
+.down-arrow{
+    width: 80px;
 }
 #pict-1{
     width: 350px;
@@ -214,6 +221,9 @@ ul.about-content{
         width: 100%;
         margin-left: 5px;
         margin-top: 30px;
+    }
+    .about-down{
+        display: none;
     }
     #pict-1{
         width: 300px;
@@ -573,11 +583,11 @@ ul.skills-content{
     
 }
 .i-like ul li{
-    padding: 40px 0px 40px;
+    padding: 30px 0px 40px;
 }
 .check-experience{
     width: 60px;
-    margin-bottom: 30px;   
+    margin-bottom: 40px;   
 }
 .experience-ul{
     margin-left: 200px;
@@ -693,7 +703,7 @@ ul.skills-content{
 .sns{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .contact-ket{
     font-size: 15px;
