@@ -364,15 +364,15 @@ ul.about-content{
         color: #525252;
     }
     .li-time-1{
-        margin-top: 75px;
+        margin-top: 70px;
         line-height: 15px;
     }
     .li-time-2{
-        margin-top: 46px;
+        margin-top: 42px;
         line-height: 15px;
     }
     .li-time-3{
-        margin-top: 63px;
+        margin-top: 40px;
         line-height: 20px;
     }
     #list {
@@ -405,7 +405,7 @@ ul.about-content{
         line-height: 10px;
     }
     #infinity{
-        padding-top: 30px;
+        padding-top: 20px;
     }
     #span-gom{
         margin-right: 5px;
