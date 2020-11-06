@@ -127,15 +127,11 @@ section{
 
 .paragraph{
     flex: 2;
-}
-
-.paragraph h4{
-    margin-top: 80px;
     font-size: 12pt;
+    margin-top: 7%;
 }
 
 section .p-2{
-    font-size: 12pt;
     color:  #5B6066;
 }
 
