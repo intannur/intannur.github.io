@@ -170,14 +170,8 @@ section{
         margin-top: 20px;
     }
     
-    section .p{
-        margin-top: 40px;
-        width: 300px;
-        font-size: 12px;
-    }
-    
-    section .p-2{
-        font-size: 10px;
+    .paragraph{
+      margin-top: 15%;
     }
     
     .img-icon{
@@ -193,6 +187,7 @@ section{
 .about-area{
   padding-top: 70px;
 }
+
 ul.about-content{
     display: flex;
     flex-direction: row;
@@ -249,6 +244,10 @@ ul.about-content{
 }
 
 @media (max-width: 600px){
+  ul.about-content{
+    display: flex;
+    flex-direction: column;
+}
     .about-left{
         flex-direction: column;
     }
