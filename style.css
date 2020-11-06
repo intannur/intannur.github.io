@@ -198,28 +198,32 @@ section .p-2{
 }
 
 /*about area*/
+.about-area{
+  padding-top: 70px;
+}
 ul.about-content{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: justify;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .about-left{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    flex: 3;
 }
 
 .about-right{
     font-size: 12pt;
-    margin-left: 5%;
     width: 19%;
     margin-top: 10%;
+    flex: 0.5;
+    margin-left: -100%;
 }
 
 .about-down{
-    margin-left: 5%;
     margin-top: -50px;
 }
 
@@ -228,15 +232,15 @@ ul.about-content{
 }
 
 #pict-1{
-    width: 440px;
-    height: 300px;
+    width: 22%;
+    height: 71%;
 }
 
 #pict-2{
-    margin-left: -50px;
-    margin-top: 114px;
-    width: 337px;
-    height: 225px;
+    margin-left: -9%;
+    margin-top: 9%;
+    width: 22%;
+    height: 64%;
 }
 
 .p-about, .p2-about{
