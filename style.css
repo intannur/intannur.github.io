@@ -213,30 +213,30 @@ ul.about-content{
 
 .about-right{
     font-size: 12pt;
-    margin-left: 30px;
-    width: 210px;
-    margin-top: 75px;
+    margin-left: 5%;
+    width: 19%;
+    margin-top: 10%;
 }
 
 .about-down{
-    margin-left: 220px;
+    margin-left: 5%;
     margin-top: -50px;
 }
 
 .down-arrow{
-    width: 80px;
+    width: 60px;
 }
 
 #pict-1{
-    width: 350px;
-    height: 250px;
+    width: 440px;
+    height: 300px;
 }
 
 #pict-2{
     margin-left: -50px;
-    margin-top: 80px;
-    width: 290px;
-    height: 190px;
+    margin-top: 114px;
+    width: 337px;
+    height: 225px;
 }
 
 .p-about, .p2-about{
@@ -791,7 +791,7 @@ ul.skills-content{
 }
 
 .words p{
-    font-size: 13px;
+    font-size: 15px;
     width: 160px;
     color: #808080;
     margin-top: 40px;
@@ -817,7 +817,7 @@ ul.skills-content{
 }
 
 .contact ul li p{
-    font-size: 10px;
+    font-size: 15px;
     color: #808080;
 }
 
@@ -845,7 +845,7 @@ ul.skills-content{
 }
 
 .contact-ket{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     color: black;
 }
