@@ -620,7 +620,7 @@ ul.about-content{
 
 /*skills area*/
 .skills-area{
-  padding: 100px 100px 20px 100px;
+  padding: 100px 100px 50px 100px;
 }
 .skills-area h3{
   text-align: center;
@@ -629,6 +629,7 @@ ul.about-content{
 
 .skills-content{
   font-size: 20px;
+  padding-bottom: 60px;;
 }
 
 ul.skills-content{
@@ -683,10 +684,10 @@ ul.skills-content{
 
 /*i-like area*/
 .i-like{
-  padding: 100px 100px 100px 100px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-bottom: 50px;
 }
 
 .i-like ul{
